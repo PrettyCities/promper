@@ -1,8 +1,6 @@
 # Promper
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/promper`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Promper is a dog who loves to fetch similar words. Simply give him an English word or phrase and he will run off to find other words or phrases that sound similar!
 
 ## Installation
 
@@ -22,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1.) Require Promper with `require 'promper'`.
+2.) Initialize a new instance of Promper with `promper = Promper.new`.
+3a.) If you are running Promper from IRB, set him free with `promper.go_boy`. Promper speak to you and continually query you until you enter a blank line.
+3b.) Alternatively, if you simply want to use Promper for his functionality, use `promper.search("target word or phrase")`. Promper will return an array of similar sounding words.
+
+Note: At this point in his life, Promper is very ambitious. He sometimes returns a lot of matches (especially for long phrases!). So, to make managing Promper's responses easier, you should search for short words/phrases. For example, if you want to find matches to the phrase "Dogs are the best animals", you may be tempted to use `promper.search("Dogs are the best animals")`. However, this will return an array containing 80,000+ elements. You are better off breaking this query into smaller chunks with something like `promper.search("Dogs are the")` and `promper.search("best animals")`. Then, comb through the results and find your favorite combinations.
 
 ## Development
 
@@ -32,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/promper. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/PrettyCities/promper. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
