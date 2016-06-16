@@ -24,7 +24,7 @@ Or install it yourself as:
 
 2.) Initialize a new instance of Promper with `promper = Promper.new`.
 
-3a.) If you are running Promper from IRB, set him free with `promper.go_boy`. Promper speak to you and continually query you until you enter a blank line.
+3a.) If you are running Promper from IRB, set him free with `promper.go_boy`. Promper will speak to you and continually query you until you enter a blank line.
 
 3b.) Alternatively, if you simply want to use Promper for his functionality, use `promper.search("target word or phrase")`. Promper will return an array of similar sounding words.
 
