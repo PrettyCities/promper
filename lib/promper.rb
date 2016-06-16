@@ -1,6 +1,6 @@
 require 'promper/version'
-require 'gab_tree'
-require 'gab_tree_processor'
+require 'promper/gab_tree'
+require 'promper/gab_tree_processor'
 
 class Promper
   def initialize
