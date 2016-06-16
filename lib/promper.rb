@@ -1,4 +1,4 @@
-require './promper/version.rb'
+require 'promper/version'
 require './gab_tree'
 require './gab_tree_processor'
 
