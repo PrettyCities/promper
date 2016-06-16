@@ -1,5 +1,5 @@
 
-require './db'
+require 'db'
 
 class BasicMatching
   include DataBase

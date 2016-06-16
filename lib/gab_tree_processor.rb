@@ -1,4 +1,4 @@
-require './gab_tree'
+require 'gab_tree'
 class GabTreeProcessor < GabTree
   attr_reader :gab_tree
   def initialize(gab_tree) # Root node of gab_tree

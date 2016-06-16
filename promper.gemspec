@@ -57,4 +57,5 @@ THIS SOFTWARE IS PROVIDED BY CARNEGIE MELLON UNIVERSITY 'AS IS' AND ANY EXPRESSE
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_runtime_dependency "rubytree"
   spec.add_runtime_dependency "string_to_ipa"
+  spec.add_runtime_dependency "pry"
 end
