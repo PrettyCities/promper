@@ -1,7 +1,7 @@
 class GabTree
   require 'tree'
   require 'string_to_ipa'
-  require 'matching'
+  require 'promper/matching'
   require 'test/unit'
 
 
