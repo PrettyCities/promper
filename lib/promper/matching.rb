@@ -1,5 +1,5 @@
 
-require 'db'
+require 'promper/db'
 
 class BasicMatching
   include DataBase
