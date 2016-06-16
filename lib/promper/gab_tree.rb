@@ -2,7 +2,7 @@ class GabTree
   require 'tree'
   require 'string_to_ipa'
   require 'promper/matching'
-  require 'test/unit'
+  
 
 
   attr_reader :match_critera, :phoneme_convert
